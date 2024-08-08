@@ -1,0 +1,31 @@
+#social-links {
+    display: flex;
+    gap: 16px;
+
+    padding: 24px 0;
+
+    font-size: 24px;
+
+    justify-content: center;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 50%;
+
+  background: var(--background-color);
+
+  border: 2px solid var(--border);
+
+  backdrop-filter: 4px(blur);
+  --webkit-backdrop-filter: blur(4px);
+
+  transition: background 0.2s;
+}
+
+#social-links a:hover {
+  background: var(--background-hover);
+}

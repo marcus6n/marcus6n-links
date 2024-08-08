@@ -1,0 +1,15 @@
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  width: 112px;
+  border-radius: 50%;
+  border: 3px solid var(--border);
+}
+
+#profile p {
+  font-weight: 900;
+  margin-top: 8px;
+}

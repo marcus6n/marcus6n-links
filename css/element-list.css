@@ -1,0 +1,40 @@
+ul {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 16px 24px;
+  border-radius: 8px;
+
+  background: var(--background-color);
+
+  border: 2px solid var(--border);
+
+  backdrop-filter: 4px(blur);
+  --webkit-backdrop-filter: blur(4px);
+
+  font-weight: 500;
+
+  text-decoration: none;
+
+  transition: background 0.2s;
+}
+
+ul li a:hover {
+  background: var(--background-hover);
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+
+  font-size: 14px;
+}
