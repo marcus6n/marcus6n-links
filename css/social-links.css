@@ -16,7 +16,7 @@
   padding: 16px;
   border-radius: 50%;
 
-  background: var(--background-color);
+  background: var(--background-color--);
 
   border: 2px solid var(--border);
 

@@ -8,7 +8,7 @@
   --text-color: #ffffff;
   --background-color: #09090b;
   --background: rgb(53, 53, 53);
-  --background-hover: rgba(255, 255, 255, 0.171);
+  --background-hover: rgba(255, 255, 255, 0.389);
   --border: rgba(255, 255, 255, 0.909);
 }
 
@@ -21,7 +21,7 @@
 }
 
 body {
-  background: var(--background-color) no-repeat top center/cover;
+  background: var(--background-color);
   overflow: hidden;
   overflow-y: scroll;
 }
